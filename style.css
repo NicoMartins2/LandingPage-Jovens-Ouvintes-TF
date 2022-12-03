@@ -1,0 +1,25 @@
+body{
+
+}
+
+#logo{
+    width: 5rem;
+    border-radius: 50%;
+}
+
+#logo, #group-name{
+    float: left;
+}
+
+#group-name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content_dialogs{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: inline-block;
+}
+
+.aboutUs_btn{
+
+}
