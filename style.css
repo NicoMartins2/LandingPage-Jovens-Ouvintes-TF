@@ -2,6 +2,15 @@ body{
 
 }
 
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 15px;
+    overflow-y: auto;
+}
+
 #logo{
     width: 5rem;
     border-radius: 50%;
