@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,100&display=swap');
 
 body{
-
+    background-color: rgb(68, 74, 103);
 }
 
 *{
@@ -14,9 +14,11 @@ header{
     position: fixed;
     margin: 0;
     padding: 0;
+    top: 0;
     float: left;
     width: 15%;
     height: 100%;
+    background-color: rgb(119, 124, 145);
 }
 
 li{
@@ -24,8 +26,17 @@ li{
 }
 
 #logo{
-    width: 5rem;
+    width: 6rem;
     border-radius: 50%;
+    cursor: pointer;
+}
+
+#group-name{
+    color: #fff;
+}
+
+.logo_name{
+    margin-top: 10px;
 }
 
 .menu li{
@@ -40,14 +51,26 @@ li{
 }
 
 .localizacaoSite li{
+    cursor: pointer;
+}
 
+.localizacaoSite li:hover{
+    color: rgb(81, 155, 155);
+    transition: 0.3s;
 }
 
 .menu li i span{
     font-size: 24px;
     margin-left: 1em;
+    color: #fff;
 }
 
 #conteudo{
-    width: 70%;
+    margin-left: 20%;
+    margin-top: 2em;
+}
+
+#title_principal{
+    font-size: 50px;
+    color: #fff;
 }
