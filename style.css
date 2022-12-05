@@ -1,14 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,100&display=swap');
+
 body{
 
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
 header{
     position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    padding: 15px;
-    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 15%;
+    height: 100%;
+}
+
+li{
+    list-style-type: none;
 }
 
 #logo{
@@ -16,19 +28,26 @@ header{
     border-radius: 50%;
 }
 
-#logo, #group-name{
-    float: left;
+.menu li{
+    margin-bottom: 3em;
+    margin-left: 20px;
 }
 
-#group-name{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.localizacaoSite{
+    margin: 0;
+    position: absolute;
+    top: 50%;
 }
 
-.content_dialogs{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    display: inline-block;
+.localizacaoSite li{
+
 }
 
-.aboutUs_btn{
+.menu li i span{
+    font-size: 24px;
+    margin-left: 1em;
+}
 
+#conteudo{
+    width: 70%;
 }
