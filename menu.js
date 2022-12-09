@@ -9,7 +9,7 @@ window.addEventListener("scroll", (event) => {
     let scroll = this.scrollY;
     console.log(scroll);
 
-    if(scroll >= 0 && scroll < 1000 && buttonStylezed === 0){
+    if(scroll >= 0 && scroll < 1000 && buttonStylezed != 0){
         buttonsSelected(0);
     }else if (scroll > 1000 && buttonStylezed != 1){
         buttonsSelected(1);
@@ -21,17 +21,19 @@ function buttonsSelected(selected){
     const defaultColor = "#000000";
     const selectedColor = "#519b9b";
 
-    home_btn.style.color = defaultColor;
-    aboutUs_btn.style.color = defaultColor;
-    project_btn.style.color = defaultColor;
-    contact_btn.style.color = defaultColor;
 
     switch(selected){
         case 0:
-            home_btn.style.color = selectedColor;
+            changeButton_Color(home_btn, selectedColor);
+            changeButton_Color(aboutUs_btn, defaultColor);
+            changeButton_Color(project_btn, defaultColor);
+            changeButton_Color(contact_btn, defaultColor);
 
         case 1:
-            aboutUs_btn.style.color = selectedColor;
+            changeButton_Color(home_btn, defaultColor);
+            changeButton_Color(aboutUs_btn, selectedColor);
+            changeButton_Color(project_btn, defaultColor);
+            changeButton_Color(contact_btn, defaultColor);
 
         case 2:
             project_btn.style.color = selectedColor;
@@ -45,5 +47,7 @@ function buttonsSelected(selected){
 }
 
 function changeButton_Color(button, colored){
+    
+
     return button.style.color = colored;
 }
