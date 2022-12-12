@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;1,100&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body onload="onLoadDefaultButton()">
    <header>
     <div class="menu">
         <!-- Aqui ficam os atalhos para localizar-se pela pagina -->
@@ -47,52 +47,39 @@
    </header>
 
    <div id="conteudo">
-        <article>
-            <!-- Infos gerais -->
-            <p id="title_principal">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                Impedit iste rerum voluptatum eligendi ullam sed itaque deleniti quibusdam laboriosam natus sint, 
-                voluptatibus corporis aliquam provident illo accusantium animi explicabo quasi!
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                Impedit iste rerum voluptatum eligendi ullam sed itaque deleniti quibusdam laboriosam natus sint, 
-                voluptatibus corporis aliquam provident illo accusantium animi explicabo quasi!
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                Impedit iste rerum voluptatum eligendi ullam sed itaque deleniti quibusdam laboriosam natus sint, 
-                voluptatibus corporis aliquam provident illo accusantium animi explicabo quasi!
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                Impedit iste rerum voluptatum eligendi ullam sed itaque deleniti quibusdam laboriosam natus sint, 
-                voluptatibus corporis aliquam provident illo accusantium animi explicabo quasi!
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                Impedit iste rerum voluptatum eligendi ullam sed itaque deleniti quibusdam laboriosam natus sint, 
-                voluptatibus corporis aliquam provident illo accusantium animi explicabo quasi!
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                Impedit iste rerum voluptatum eligendi ullam sed itaque deleniti quibusdam laboriosam natus sint, 
-                voluptatibus corporis aliquam provident illo accusantium animi explicabo quasi!
-            </p>
-                
-        </article>
-    
         <main>
             <!-- Todas as seções do site ficam aqui -->
-                <section id="aboutUs">
-                    
-                </section>
-                <section>
-                    
-                </section>
-                <section>
-                    
-                </section>
-                <section>
-                    
-                </section>
+            <section class="home" onload="onLoadVideo_home()">
+                <!-- Infos gerais -->
+                <h2 id="title_principal"></h2>
+                <p id="subtitle">Um projeto social por Jovens Ouvintes - Tech Ninjas</p>
+
+                <video autoplay muted loop id="backgroundVideo_home">
+                    <source src="happy people.mp4" type="video/mp4">
+                </video>
+
+            </section>   
+            <section id="aboutUs">
+
+            </section>
+            <section>
+
+            </section>
+            <section>
+
+            </section>
+            <section>
+
+            </section>
         </main>
         
         <footer>
             <!-- Infos finais sobre o projeto, ex: nome dos criadores -->
-            <p id="footer_txt">Direitos Reservados a Tech Ninjas</p>
+            <p id="footer_txt">&copy; Direitos Reservados a Tech Ninjas</p>
         </footer>
    </div>
 
    <script src="menu.js"></script>
+   <script src="home.js"></script>
 </body>
 </html>

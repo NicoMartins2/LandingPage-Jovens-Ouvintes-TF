@@ -16,7 +16,7 @@ header{
     padding: 0;
     top: 0;
     float: left;
-    width: 15%;
+    width: absolute;
     height: 100%;
     background-color: rgb(119, 124, 145);
 }
@@ -28,7 +28,6 @@ li{
 #logo{
     width: 6rem;
     border-radius: 50%;
-    cursor: pointer;
 }
 
 #group-name{
@@ -66,11 +65,40 @@ li{
 }
 
 #conteudo{
-    margin-left: 17%;
+    margin-left: 18em;
     margin-top: 2em;
+    text-align: center;
 }
 
 #title_principal{
-    font-size: 50px;
+    font-size: 7em;
     color: #fff;
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+
+#subtitle{
+    color: #fff;
+    font-size: 2em;
+    position: absolute;
+}
+
+#backgroundVideo_home{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 30%;
+    width: 100%;
+}
+
+footer{
+    font-style: italic;
+    color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
 }

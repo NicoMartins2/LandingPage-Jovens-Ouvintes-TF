@@ -51,3 +51,7 @@ function changeButton_Color(button, colored){
 
     return button.style.color = colored;
 }
+
+function onLoadDefaultButton(){
+    home_btn.style.color = "#519b9b";
+}
