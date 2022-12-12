@@ -7,7 +7,7 @@ function onLoadVideo_home(){
 
 const title = document.querySelector("#title_principal");
 const subtitle = document.querySelector("#subtitle");
-let text = "Frases tranformam vidas";
+let text = "Frases transformam vidas";
 let text2 = "Um projeto social por Jovens Ouvintes - Tech Ninjas";
 let arrayTitle = text.split("");
 let arraySubtitle = text2.split("");

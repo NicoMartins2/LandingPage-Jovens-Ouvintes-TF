@@ -70,12 +70,14 @@ li{
     text-align: center;
 }
 
+.home{
+    position: relative;
+}
+
 #title_principal{
     font-size: 7em;
     color: #fff;
-    position: absolute;
-    top: 25%;
-    left: 20%;
+    vertical-align: middle;
 }
 
 #subtitle{
@@ -93,6 +95,7 @@ li{
     z-index: -1;
     opacity: 30%;
     width: 100%;
+    height: 100%;
 }
 
 footer{
