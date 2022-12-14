@@ -49,36 +49,35 @@
    <div id="conteudo">
         <main>
             <!-- Todas as seções do site ficam aqui -->
-            <section class="home" onload="onLoadVideo_home()">
+            <section class="home" onload="onLoadVideo_home()" id="home">
                 <!-- Infos gerais -->
                 <h2 id="title_principal"></h2>
                 <p id="subtitle">Um projeto social por Jovens Ouvintes - Tech Ninjas</p>
-
-                <video autoplay muted loop id="backgroundVideo_home">
-                    <source src="happy people.mp4" type="video/mp4">
-                </video>
-
-            </section>   
-            <section id="aboutUs">
+                <div id="videoHome">
+                    <video autoplay muted loop id="backgroundVideo_home">
+                        <source src="happy people.mp4" type="video/mp4">
+                    </video>
+                </div>
+        
+            </section>
+            <div id="aboutUs_div">
+                <section id="aboutUs">
+                    <h2>Conheça Nossa Equipe</h2>
+                </section>
+            </div>   
+            <section id="aboutProject">
 
             </section>
-            <section>
-
-            </section>
-            <section>
-
-            </section>
-            <section>
+            <section id="Contacts">
 
             </section>
         </main>
         
         <footer>
-            <!-- Infos finais sobre o projeto, ex: nome dos criadores -->
+            <!-- Infos finais sobre o projeto -->
             <p id="footer_txt">&copy; Direitos Reservados a Tech Ninjas</p>
         </footer>
    </div>
-
    <script src="menu.js"></script>
    <script src="home.js"></script>
 </body>

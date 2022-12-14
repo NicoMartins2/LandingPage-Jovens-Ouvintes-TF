@@ -1,4 +1,5 @@
 const videoHome = document.querySelector("#backgroundVideo_home");
+const buttonHome = document.querySelector("#buttonHome");
 
 function onLoadVideo_home(){
     videoHome.play();
@@ -24,3 +25,4 @@ function textDigit(){
 }
 
 textDigit();
+
