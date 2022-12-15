@@ -53,3 +53,9 @@ function changeButton_Color(button, colored){
 function onLoadDefaultButton(){
     home_btn.style.color = "#519b9b";
 }
+
+// Sistema de click dos botões do menu
+
+function clickButtons(){
+    
+}

@@ -147,7 +147,7 @@ footer{
     box-sizing: border-box;
     border-style: solid;
     border-width: thin;
-    border-radius: 5px;
+    border-radius: 25%;
     border-color: #519b9b;
     vertical-align: top;
     width: 25%;
@@ -168,6 +168,7 @@ footer{
 
 .Image_Members{
     width: 200px;
+    border-radius: 50%;
 }
 
 .h2_Members{
@@ -177,4 +178,9 @@ footer{
 
 .p_Members{
     font-size: 18px;
+}
+
+.ImageMartin{
+    width: 250px;
+    border-radius: 50%;
 }
