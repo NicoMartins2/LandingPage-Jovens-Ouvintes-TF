@@ -51,17 +51,39 @@
             <!-- Todas as seções do site ficam aqui -->
             <div class="home" onload="onLoadVideo_home()" id="home">
                     <!-- Infos gerais -->
-                    <h2 id="title_principal"></h2>
-                    <p id="subtitle">Um projeto social por Jovens Ouvintes - Tech Ninjas</p>
-                    <div id="videoHome">
+                    <div class="home-content">
+                        <h2 id="title_principal"></h2>
+                        <p id="subtitle">Um projeto social por Jovens Ouvintes - Tech Ninjas</p>
+                    </div>
+                   <div class="home-background">
+                       <!-- <img src="imagens_do_site/logo - jovens ouvintes.jpg" alt="logo-jovens-ouvintes-fundo" id="backgroundImage_home"> -->
                         <video autoplay muted loop id="backgroundVideo_home">
                             <source src="happy people.mp4" type="video/mp4">
                         </video>
-                    </div> 
+                    </div>
+                   
+                   <!-- <div id="videoHome">
+                        <video autoplay muted loop id="backgroundVideo_home">
+                            <source src="happy people.mp4" type="video/mp4">
+                        </video>
+                    </div> -->
             </div>
 
             <div class="aboutUs" id="aboutUs">
-                <h2>Conheça Nossa Equipe</h2>
+                <h2 class="aboutUs_title">Conheça Nossa Equipe</h2>
+                <ul class="SquadMembers">
+                    <li class="Giovana">
+                        <img src="imagens_do_site/Giovana.jpeg" alt="Imagem de Giovana" class="GiovanaImage">
+                        <h2 class="h2_Members">Giovana Seefeld</h2>
+                        <p>Líder e apresentadora do <br>Projeto Jovens Ouvintes</p>
+                    </li>
+
+                    <li class="Nícolas">
+                        <img src="imagens_do_site/Nicolas.jpeg" alt="Imagem de Nícolas" class="NicolasImage">
+                        <h2 class="h2_Members">Nícolas R. Martins</h2>
+                        <p class="p_Members">Scrum Master, Programador principal e <br>Vice-líder do Projeto Jovens Ouvintes</p>
+                    </li>
+                </ul>
             </div>
             
             <div class="aboutProject" id="aboutProject">

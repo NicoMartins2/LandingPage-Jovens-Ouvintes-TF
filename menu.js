@@ -3,7 +3,6 @@ const aboutUs_btn = document.getElementById("aboutUs_btn");
 const project_btn = document.getElementById("project_btn");
 const contact_btn = document.getElementById("contact_btn");
 // variaveis dos botoes do menu
-let buttonStylezed = null;
 
 window.addEventListener("scroll", (event) => {
     let scroll = this.scrollY;
@@ -11,7 +10,7 @@ window.addEventListener("scroll", (event) => {
 
     if(scroll >= 0 && scroll < 1000 && buttonStylezed != 0){
         buttonsSelected(0);
-    }else if (scroll > 1000 && buttonStylezed != 1){
+    }else if (scroll >= 650 && buttonStylezed != 1){
         buttonsSelected(1);
     }
 })
@@ -20,7 +19,7 @@ window.addEventListener("scroll", (event) => {
 function buttonsSelected(selected){
     const defaultColor = "#000000";
     const selectedColor = "#519b9b";
-
+    let buttonStylezed = null;
 
     switch(selected){
         case 0:
