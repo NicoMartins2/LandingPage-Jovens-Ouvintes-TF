@@ -219,3 +219,46 @@ footer{
 .projectContent video{
     margin-top: 20px;
 }
+
+.imgs{
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.imagesProject{
+    display: flex;
+    justify-content: center;
+}
+
+.imagesnbuttons button{
+    width: 50px;
+    height: 50px;
+}
+
+.Contacts{
+    background: linear-gradient(to top, rgb(68, 74, 103), #519b9b);
+}
+
+#ContactsTitle{
+    padding-top: 100px;
+}
+
+.Contacts i p{
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.Contacts i{
+    border-style: solid;
+    border-radius: 2%;
+    padding: 50px;
+    margin-bottom: 150px;
+}
+
+.Contacts i:hover{
+    color: rgb(218, 181, 117);
+    transition: 0.3s;
+}
