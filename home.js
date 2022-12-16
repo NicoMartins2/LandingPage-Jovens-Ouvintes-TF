@@ -21,7 +21,7 @@ function textDigit(){
         clearTimeout(timer);
     }
 
-    loopTimer = setTimeout("textDigit()", 250);
+    loopTimer = setTimeout("textDigit()", 150);
 }
 
 textDigit();
