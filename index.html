@@ -20,19 +20,19 @@
             </li>
             
             <div class="localizacaoSite">
-                <li class="home_btn" id="home_btn">
+                <li class="home_btn" id="home_btn" onclick="scrollElement(0)">
                     <i class="fa fa-home fa-3x" aria-hidden="true"><span>Início</span></i>
                 </li>
 
-                <li class="aboutUs_btn" id="aboutUs_btn">
+                <li class="aboutUs_btn" id="aboutUs_btn" onclick="scrollElement(1)">
                     <i class="fa fa-user fa-3x" aria-hidden="true"><span>Sobre nós</span></i>
                 </li>
     
-                <li class="project_btn">
+                <li class="project_btn" onclick="scrollElement(2)">
                     <i class="fa fa-file fa-3x" aria-hidden="true"><span>Projeto</span></i>
                 </li>
                 
-                <li class="contact_btn">
+                <li class="contact_btn" onclick="scrollElement(3)">
                     <i class="fa fa-envelope fa-3x" aria-hidden="true"><span>Contatos</span></i>
                 </li>
             </div>
@@ -103,13 +103,20 @@
             
             <div class="aboutProject" id="aboutProject">
                 <h2 class="tabtitle" id="project-title">O Projeto</h2>
-                <p>Através de nosso novo projeto, buscamos melhorar a auto estima e o dia de pessoas desconhecidas.  
-                    Se imaginarmos, uma pessoa com dificuldades familiares, social e até mesmo pessoal, 
-                    ela provavelmente não vai estar bem fisicamente e emocionalmente. Com isso nossa empresa 
-                    montou um projeto que visa a melhora das pessoas, entregamos cartões com frases e textos 
-                    que possam motivar e melhorar o dia e até mesmo a vida daquela pessoa que pode estar passando 
-                    por um dia difícil. Nos cartões temos nosso contato, para que  eventualmente essas pessoas sintam se 
-                    confortáveis a nós mandar mensagens publicar que nosso projeto fez a diferença.</p>
+                
+                <div class="projectContent">
+                    <p id="p_Project">Através do nosso novo projeto, buscamos melhorar a auto estima e o dia de pessoas.  
+                        Se imaginarmos, uma pessoa com dificuldades familiares, social e pessoal, 
+                        ela provavelmente não vai estar bem fisicamente e emocionalmente. Entregamos cartões com frases e textos 
+                        que possam motivar e melhorar o dia e até mesmo a vida daquela pessoa que pode estar passando 
+                        por um dia difícil.
+                        <br><strong style="color: darkorange;">Abaixo um vídeo sobre o projeto<strong> <br><i class="fa fa-arrow-down fa-3x" aria-hidden="true"></i>
+                    </p>
+
+                    <video width="720" height="430" controls="controls" id="videoProject">
+                        <source src="videoProjeto.mp4" type="video/mp4">
+                    </video>
+                </div>
             </div>
 
             <div class="Contacts" id="Contacts">

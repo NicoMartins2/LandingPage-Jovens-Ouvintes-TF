@@ -56,6 +56,26 @@ const contact_btn = document.getElementById("contact_btn");
 
 // Sistema de click dos botões do menu
 
-function clickButtons(){
-    
+function scrollElement(element){
+    switch(element){
+        case 0:
+            var element_ = document.getElementById("home");
+            element_.scrollIntoView();
+            break;
+
+        case 1:
+            element_ = document.getElementById("aboutUs");
+            element_.scrollIntoView();
+            break;
+
+        case 2:
+            element_ = document.getElementById("aboutProject");
+            element_.scrollIntoView();
+            break;
+        
+        case 3:
+            element_ = document.getElementById("Contacts");
+            element_.scrollIntoView();
+            break;
+    }
 }
