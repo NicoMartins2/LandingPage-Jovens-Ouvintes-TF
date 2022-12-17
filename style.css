@@ -262,3 +262,18 @@ footer{
     color: rgb(218, 181, 117);
     transition: 0.3s;
 }
+
+a:link {
+    color:#fff;
+    text-decoration: none;
+}
+
+a:visited {
+    color:#fff;
+}
+
+.Contacts i a:hover{
+    color: rgb(218, 181, 117);
+    transition: 0.15s;
+}
+
